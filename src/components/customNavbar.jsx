@@ -17,7 +17,7 @@ function CustomNavbar() {
   const scrollToBottom = () => {
     window.scrollTo({
       top: document.documentElement.scrollHeight,
-      behavior: 'smooth',  // لجعل التمرير سلس
+      behavior: 'smooth',  
     });
   }
   return (
